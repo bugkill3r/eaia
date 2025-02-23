@@ -1,0 +1,24 @@
+# Sensitive files
+.secrets/
+.secrets/**
+embeddings/
+embeddings/**
+eaia/main/config.yaml
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.so
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/
